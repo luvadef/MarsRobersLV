@@ -8,7 +8,7 @@ class DriveRobot
   # Inputs grid coordinates from the user
   def get_coordinates
     top_right_x, top_right_y = gets.chomp.split(' ')
-    raise ArgumentError, 'Invalid grid coordinates' unless (Integer(top_right_x) && Integer(top_right_y) rescue false)
+    raise ArgumentError, 'Invalid grid params' unless (Integer(top_right_x) && Integer(top_right_y) rescue false)
         @grid = Grid.new(top_right_x.to_i, top_right_y.to_i)
   end
 
