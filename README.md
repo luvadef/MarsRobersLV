@@ -1,5 +1,5 @@
 # MarsRobotsLV
-My Mars Rover project DriveRobot
+My Mars Rovers project DriveRobot
 
 Installation guide:
 
