@@ -5,10 +5,6 @@ Installation guide:
 
 step 1:
     - run: 
-        $ bundle install
-
-step 2:
-    - run: 
         $  ruby drive_robot.rb < test_input
 
 Test Input:
